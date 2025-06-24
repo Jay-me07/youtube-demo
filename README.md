@@ -61,4 +61,28 @@ youtube-demo/
 │       └── fetchFromAPI.js
 ├── package.json
 └── README.md
+````
 
+🛠️ Getting Started Locally
+# Clone the repo
+git clone https://github.com/Jay-me07/youtube-demo.git
+cd youtube-demo
+
+# Install dependencies
+npm install
+
+# Run locally
+npm start
+
+💡 Why I Built This
+I built this YouTube clone to improve my API integration and frontend UI skills using React. It was a great way to simulate a real video-streaming interface with live data, dynamic routing, and responsive layout.
+
+📬 Contact Me
+📧 Email: jnjihiagachau07@gmail.com
+
+🌍 Portfolio: jay-me07.github.io/portifolio
+
+🐙 GitHub: Jay-me07
+
+⭐ Support
+If you like this project or found it helpful, please give it a ⭐ — it motivates me to keep building!
