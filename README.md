@@ -1,12 +1,64 @@
-# React + Vite
+# 📺 YouTube Demo App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A sleek and responsive YouTube clone built using **React.js**, featuring a dynamic video feed, search functionality, and video detail pages. It uses the **YouTube Data API** to fetch and display real-time video content, providing users with an interactive YouTube-like experience.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🔍 About
 
-## Expanding the ESLint configuration
+This project demonstrates my ability to work with third-party APIs, manage complex component hierarchies in React, and design responsive, user-friendly interfaces. Users can view trending videos, search for content, and play videos directly within the app, just like the real thing.
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## 🚀 Live Demo
+
+👉 [View Live App](https://jay-me07.github.io/youtube-demo/)  
+*(Deployed with GitHub Pages)*
+
+---
+
+## 🎯 Features
+
+- 🔎 **Search Functionality** – Search for videos using real YouTube Data API
+- 🧩 **Video Feed** – Trending and category-based video listings
+- 🎥 **Video Player Page** – Watch videos with title, description, and channel info
+- 📱 **Responsive Design** – Optimized for mobile and desktop screens
+- ⚛️ Built with React functional components and hooks
+
+---
+
+## 🧑‍💻 Tech Stack
+
+| Frontend       | API               | Deployment       |
+|----------------|--------------------|------------------|
+| React.js       | YouTube Data API v3 | GitHub Pages     |
+| CSS / Flexbox  | Axios              |                  |
+
+---
+
+## 🖼️ Screenshots
+
+| Home Feed | Video Page |
+|-----------|------------|
+| *(Insert Screenshot)* | *(Insert Screenshot)* |
+
+---
+
+## 📁 Folder Structure
+
+```bash
+youtube-demo/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Navbar.jsx
+│   │   ├── Feed.jsx
+│   │   ├── VideoDetail.jsx
+│   │   └── SearchFeed.jsx
+│   ├── App.js
+│   ├── index.js
+│   └── utils/
+│       └── fetchFromAPI.js
+├── package.json
+└── README.md
+
